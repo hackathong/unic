@@ -2,27 +2,47 @@
     font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
 }
 
+@media only screen and (max-aspect-ratio: 1/1) {
+    body {
+        font-size: 20pt;
+    }
+}
+
+
 #home {
-    
     background-image: url('docs/home.png');
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:30px;
-    cursor:pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    cursor: pointer;
 }
 
 .inputPanel {
-    text-align:center;
-    margin:20px;
+    text-align: center;
+    margin: 20px;
 }
 
 #searchInput {
     font-size: large;
-    width: 70%;
+    width: 60%;
+}
+
+@media only screen and (max-aspect-ratio: 1/1) {
+    #searchInput {
+        font-size: large;
+        width: 90%;
+    }
 }
 
 .fieldName {
-    min-width:20%;
+    min-width: 20%;
+    display: inline-table;
+}
+
+@media only screen and (max-aspect-ratio: 1/1) {
+    .fieldName {
+        display: block;
+    }
 }
 
 .shortItem {
@@ -35,7 +55,7 @@
     .shortItem .fieldName {
         color: darkslategrey;
         margin-right: 20px;
-        font-size: small;
+        font-size: smaller;
     }
 
         .shortItem .fieldName:after {
@@ -47,7 +67,7 @@
 
 
 .fullItem {
-    background-color:beige;
+    background-color: beige;
     margin: 5px;
     padding: 5px;
 }
@@ -55,7 +75,7 @@
     .fullItem .fieldName {
         color: darkslategrey;
         margin-right: 20px;
-        font-size: small;
+        font-size: smaller;
     }
 
         .fullItem .fieldName:after {
@@ -65,7 +85,7 @@
     .fullItem .fieldValue {
     }
 
-.fieldLink{
-    color:dodgerblue;
-    cursor:pointer;
+.fieldLink {
+    color: dodgerblue;
+    cursor: pointer;
 }
