@@ -1,5 +1,20 @@
 ﻿body {
     font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
+    background-attachment:fixed;
+    background-image: url('docs/enel.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size:200px;
+}
+
+.unicback {
+    background-attachment: fixed;
+    background-image: url('docs/unic.png');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+    background-size: 200px;
 }
 
 #home {
@@ -25,7 +40,13 @@
     display: inline-table;
 }
 
+.fieldValue{
+    margin-left:20px;
+    display:inline-table;
+}
+
 .shortItem {
+    opacity:0.9;
     background-color: antiquewhite;
     border-radius: 10px 10px;
     margin: 5px;
@@ -47,6 +68,7 @@
 
 
 .fullItem {
+    opacity: 0.9;
     background-color: beige;
     margin: 5px;
     padding: 5px;
