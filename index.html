@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="main.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="inputPanel">
+        <span id="home">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <input id="searchInput" type="text" />
+        <div><span id="searchFilterText"></span></div>
+    </div>
+    <div id="searchShortVariants"></div>
+    <div id="searchFull"></div>
+
+
+    <script src="db.js"></script>
+    <script src="SearchManager.js"></script>
+    <script src="SearchView.js"></script>
+    <script src="EmployeeView.js"></script>
+    <script src="OrganizationView.js"></script>
+    <script src="DirectiveView.js"></script>
+    <script>
+        searchManager = new SearchManager();
+        searchManager.LoadData(g_data);
+        searchView = new SearchView(searchManager);
+        searchView.Init();
+
+        document.getElementById("searchInput").focus();
+    </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+﻿body {
+    font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#home {
+    
+    background-image: url('docs/home.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:30px;
+    cursor:pointer;
+}
+
+.inputPanel {
+    text-align:center;
+    margin:20px;
+}
+
+#searchInput {
+    font-size: large;
+    width: 70%;
+}
+
+.fieldName {
+    min-width:20%;
+}
+
+.shortItem {
+    background-color: antiquewhite;
+    border-radius: 10px 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+    .shortItem .fieldName {
+        color: darkslategrey;
+        margin-right: 20px;
+        font-size: small;
+    }
+
+        .shortItem .fieldName:after {
+            content: ": ";
+        }
+
+    .shortItem .fieldValue {
+    }
+
+
+.fullItem {
+    background-color:beige;
+    margin: 5px;
+    padding: 5px;
+}
+
+    .fullItem .fieldName {
+        color: darkslategrey;
+        margin-right: 20px;
+        font-size: small;
+    }
+
+        .fullItem .fieldName:after {
+            content: ": ";
+        }
+
+    .fullItem .fieldValue {
+    }
+
+.fieldLink{
+    color:dodgerblue;
+    cursor:pointer;
+}
