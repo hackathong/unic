@@ -2,13 +2,6 @@
     font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media only screen and (max-aspect-ratio: 1/1) {
-    body {
-        font-size: 20pt;
-    }
-}
-
-
 #home {
     background-image: url('docs/home.png');
     background-repeat: no-repeat;
@@ -23,26 +16,13 @@
 }
 
 #searchInput {
-    font-size: large;
+    font-size: larger;
     width: 60%;
-}
-
-@media only screen and (max-aspect-ratio: 1/1) {
-    #searchInput {
-        font-size: large;
-        width: 90%;
-    }
 }
 
 .fieldName {
     min-width: 20%;
     display: inline-table;
-}
-
-@media only screen and (max-aspect-ratio: 1/1) {
-    .fieldName {
-        display: block;
-    }
 }
 
 .shortItem {
@@ -88,4 +68,19 @@
 .fieldLink {
     color: dodgerblue;
     cursor: pointer;
+}
+
+@media only screen and (max-aspect-ratio: 12/10) {
+    body {
+        font-size: 25pt;
+    }
+
+    #searchInput {
+        font-size: larger;
+        width: 90%;
+    }
+
+    .fieldName {
+        display: block;
+    }
 }

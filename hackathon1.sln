@@ -7,20 +7,21 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "unic", ".", "{4FB0F8F0-235E
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_52749"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\hakaton\unic\"
+		Debug.AspNetCompiler.PhysicalPath = "..\unic\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52749\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_52749"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\hakaton\unic\"
+		Release.AspNetCompiler.PhysicalPath = "..\unic\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52749\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "52749"
+		SlnRelativePath = "..\unic\"
 	EndProjectSection
 EndProject
 Global
