@@ -1,0 +1,126 @@
+﻿body {
+    font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
+    background-attachment: fixed;
+    background-image: url('docs/enel.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 200px;
+}
+
+.dirName {
+    margin-right: 10px;
+    display: inline-block;
+    max-width: 60%;
+    min-width: 60%;
+    vertical-align: top;
+}
+
+.dirStatus {
+    color:brown;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header {
+    font-size: larger;
+    align-content: center;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px 10px;
+    min-height: 100%;
+}
+
+.button {
+    min-width: 30px;
+    min-height: 30px;
+    display: inline-block;
+    border: 1px solid #AAAAAA;
+    margin: 10px;
+
+    background-color: white;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+}
+
+
+.btnNew {
+    background-image: url('docs/plus_32.png');
+}
+
+.btnEdit {
+    background-image: url('docs/edit_32.png');
+}
+
+.btnApprove {
+    background-image: url('docs/tick_32.png');
+}
+
+.btnReject {
+    background-image: url('docs/delete_32.png');
+}
+
+.btnDownload {
+    background-image: url('docs/down_32.png');
+}
+
+.btnPrint {
+    background-image: url('docs/print_32.png');
+}
+
+.btnBlock {
+    background-image: url('docs/ban_32.png');
+}
+
+.btnCal {
+    background-image: url('docs/calendar-blue-icon.png');
+}
+
+.PageTitle {
+    font-size: x-large;
+}
+
+.tdContent {
+    border: 1px solid silver;
+    min-height: 300px;
+}
+
+.CatControl {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: gray;
+}
+
+.ListItem.SelectedItem {
+    border: 1px;
+    background-color: chartreuse;
+    background-image: url('docs/Next.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30px;
+}
+
+.control {
+    border-width:1px;
+    border-style:solid;
+    border-radius: 10px 10px;
+    padding: 20px;
+}
+
+.ListItem {
+    background-color:blanchedalmond;
+    padding:5px;
+    margin:1px 5px;
+}
+
+.atable{
+    width:100%;
+}
+
+.atd{
+    width:33%;
+    vertical-align:top;
+}

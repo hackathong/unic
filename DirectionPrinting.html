@@ -2,9 +2,88 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>ОТиПБ</title>
+    <link href="DirPrint.css" rel="stylesheet" />
 </head>
 <body>
+    
+    <img src="docs/unic.png" />
+    <span class="PageTitle">ОТиПБ</span>
+    <div class="control">
+        <label>Рабочий год</label>
+        
+        <select>
+            <option>  2017</option>
+            <option>  2016</option>
+        </select>
+    </div>
+    <table class="atable" cellspacing="2" cellpadding="0">
+        <tr>
+            <td class="atd header">
+                <div class="title">
+                    Организации
+                </div>
+            </td>
+            <td class="atd header">
+                <div class="title">
+                    Указания
+                </div>
+                <div class="CatControl">
+                    <div class="button btnNew"></div>
+                    <div class="button btnEdit"></div>
+                    <div class="button btnApprove"></div>
+                    <div class="button btnReject"></div>
+                    <div class="button btnDownload"></div>
+                    <div class="button btnPrint"></div>
+                </div>
+            </td>
+            <td class="atd header">
+                <div class="title">
+                    Сотрудники
+                </div>
+                <div class="CatControl">
+                    <div class="button btnBlock"></div>
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="atd tdContent">
+                <div class="ListItem">Дитсманн</div>
+                <div class="ListItem SelectedItem">ПТМ Энерго</div>
+                <div class="ListItem">Энергостройкомплект</div>
+            </td>
+        
+            <td class="atd tdContent">
+                <div class="ListItem">
+                    <div class="dirName">Дитсманн ТМО ОПФ газоопасные</div>
+                    <div class="dirStatus">новое</div>
+                </div>
+                <div class="ListItem SelectedItem">
+                    <div class="dirName">Энергостройкомплект Огневые</div>
+                    <div class="dirStatus">новое</div>
+                </div>
+                <div class="ListItem">
+                    <div class="dirName">ПТМ Энерго ТМО</div>
+                    <div class="dirStatus">Подтверждено</div>
+                </div>
+                <div class="ListItem">
+                    <div class="dirName">ООО Рога</div>
+                    <div class="dirStatus">Отклонено</div>
+                </div>
+            </td>
+                        
+            <td class="atd tdContent">
+                <div class="ListItem">мишин дмитрий</div>
+                <div class="ListItem">сотников сергей</div>
+                <div class="ListItem">Бухарина Оксана</div>
+                <div class="ListItem">Самарев Александр</div>
+                <div class="ListItem">Хохлов Сергей</div>
+                <div class="ListItem">Иванов Иван</div>
+            </td>
+            
 
+        </tr>
+    </table>
 </body>
 </html>

@@ -16,12 +16,22 @@
     cursor: pointer;
 }
 
+.header{
+    font-size:large;
+
+}
+
+#searchFilterText {
+    font-size: large;
+}
+
 .inputPanel {
     text-align: center;
     margin: 20px;
 }
 
 #searchInput {
+    opacity: 0.9;
     font-size: larger;
     width: 60%;
 }

@@ -10,7 +10,7 @@
         "role": "Роль по наряду",
         "status": "Статус",
         "skud": "СКУД",
-        "geoCoord": "Местоположение",
+        "geoCoordFrame": "Местоположение",
         "orgLink": "Организация",
         "dirLink": "Указание"
     }
@@ -57,6 +57,15 @@ EmployeeView.prototype.VizualizeFull = function () {
     var dirObj = searchManager.GetObjById("directives", this.emp.dirId);
     this.AddField("dirLink", itm, dirObj);
 
+    //geo
+    var val = this.AddField("geoCoordFrame", itm);
+    
+    
+    if (this.emp.geoCoord != null)
+        val.innerHTML = '<br>'+this.emp.geoCoord;
+    else
+        val.innerHTML = "не на территории"
+    
     return itm;
 }
 
@@ -75,17 +84,11 @@ EmployeeView.prototype.AddField = function (fieldName, itm, linkedObj) {
         }
     }
     else {
-        if (fieldName == 'geoCoord')
-        {
-            if (this.emp[fieldName] != null)
-                value.innerHTML = '<a target="_blank" href="' + this.emp[fieldName] + '">на территории</a>';
-            else
-                value.innerHTML = "не на территории"
-        }
-        else
+        
             value.innerHTML = this.emp[fieldName];
     }
     str.appendChild(label);
     str.appendChild(value);
     itm.appendChild(str);
+    return value;
 }

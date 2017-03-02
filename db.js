@@ -10,7 +10,7 @@
             role: "наблюдающий", //надо вынести в указание
             status: "активен",
             skud: "активен",
-            geoCoord: "https://www.google.ru/maps/@57.0002421,60.4640892,315m/data=!3m1!1e3?hl=en",
+            geoCoord: '<iframe src="https://www.google.com/maps/d/embed?mid=1p-NxKdAvS0ivih0yFT3dmPWWWHU" width="400" height="300"></iframe>',
 
             orgId: 1,
             dirId: 1
@@ -40,7 +40,7 @@
             role: "производитель работ", //надо вынести в указание
             status: "активен",
             skud: "активен",
-            geoCoord: "https://www.google.ru/maps/@57.0002421,60.4640892,315m/data=!3m1!1e3?hl=en",
+            geoCoord: '<iframe src="https://www.google.com/maps/d/embed?mid=1p-NxKdAvS0ivih0yFT3dmPWWWHU" width="400" height="300"></iframe>',
 
             orgId: 2,
             dirId: 2
@@ -56,7 +56,7 @@
             role: "руководитель", //надо вынести в указание
             status: "активен",
             skud: "активен",
-            geoCoord: "https://www.google.ru/maps/@57.0002421,60.4640892,315m/data=!3m1!1e3?hl=en",
+            geoCoord: '<iframe src="https://www.google.com/maps/d/embed?mid=1p-NxKdAvS0ivih0yFT3dmPWWWHU" width="400" height="300"></iframe>',
 
             orgId: 2,
             dirId: 3
@@ -72,7 +72,7 @@
             role: "наблюдающий", //надо вынести в указание
             status: "активен",
             skud: "активен",
-            geoCoord: "https://www.google.ru/maps/@57.0002421,60.4640892,315m/data=!3m1!1e3?hl=en",
+            geoCoord: '<iframe src="https://www.google.com/maps/d/embed?mid=1p-NxKdAvS0ivih0yFT3dmPWWWHU" width="400" height="300"></iframe>',
 
             orgId: 2,
             dirId: 3
@@ -88,7 +88,7 @@
             role: "член бригады", //надо вынести в указание
             status: "активен",
             skud: "активен",
-            geoCoord: "https://www.google.ru/maps/@57.0002421,60.4640892,315m/data=!3m1!1e3?hl=en",
+            geoCoord: '<iframe src="https://www.google.com/maps/d/embed?mid=1p-NxKdAvS0ivih0yFT3dmPWWWHU" width="400" height="300"></iframe>',
 
             orgId: 2,
             dirId: 3
@@ -104,7 +104,7 @@
             role: "производитель работ", //надо вынести в указание
             status: "активен",
             skud: "активен",
-            geoCoord: "https://www.google.ru/maps/@57.0002421,60.4640892,315m/data=!3m1!1e3?hl=en",
+            geoCoord: '<iframe src="https://www.google.com/maps/d/embed?mid=1p-NxKdAvS0ivih0yFT3dmPWWWHU" width="400" height="300"></iframe>',
 
             orgId: 2,
             dirId: 3
