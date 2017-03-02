@@ -4,10 +4,10 @@
             name: "саратокин алексей",
             title: "инженер",
             certNumber: 3,
-            electroSafetyGroup: 42,
+            electroSafetyGroup: 4,
             briefingDate: "01.01.2016",
             examineData: "01.01.2016",
-            role: "водопроводчик", //надо вынести в указание
+            role: "наблюдающий", //надо вынести в указание
             status: "активен",
             skud: "активен",
             geoCoord: "https://www.google.ru/maps/@57.0002421,60.4640892,315m/data=!3m1!1e3?hl=en",
@@ -22,9 +22,9 @@
             electroSafetyGroup: 4,
             briefingDate: "02.02.2017",
             examineData: "02.02.2017",
-            role: "электрик", //надо вынести в указание
+            role: "член бригады", //надо вынести в указание
             status: "активен",
-            skud: "активен",
+            skud: "не активен",
             geoCoord: null,
 
             orgId: 2,
@@ -37,7 +37,7 @@
             electroSafetyGroup: 4,
             briefingDate: "02.02.2017",
             examineData: "02.02.2017",
-            role: "электрик", //надо вынести в указание
+            role: "производитель работ", //надо вынести в указание
             status: "активен",
             skud: "активен",
             geoCoord: "https://www.google.ru/maps/@57.0002421,60.4640892,315m/data=!3m1!1e3?hl=en",
@@ -45,18 +45,87 @@
             orgId: 2,
             dirId: 2
 
+        },
+        {
+            name: "Бухарина Оксана",
+            title: "инженер",
+            certNumber: 232,
+            electroSafetyGroup: 4,
+            briefingDate: "02.02.2017",
+            examineData: "02.02.2017",
+            role: "руководитель", //надо вынести в указание
+            status: "активен",
+            skud: "активен",
+            geoCoord: "https://www.google.ru/maps/@57.0002421,60.4640892,315m/data=!3m1!1e3?hl=en",
+
+            orgId: 2,
+            dirId: 3
+
+        },
+        {
+            name: "Самарев Александр",
+            title: "инженер",
+            certNumber: 9778,
+            electroSafetyGroup: 2,
+            briefingDate: "02.02.2017",
+            examineData: "02.02.2017",
+            role: "наблюдающий", //надо вынести в указание
+            status: "активен",
+            skud: "активен",
+            geoCoord: "https://www.google.ru/maps/@57.0002421,60.4640892,315m/data=!3m1!1e3?hl=en",
+
+            orgId: 2,
+            dirId: 3
+
+        },
+        {
+            name: "Хохлов Сергей",
+            title: "инженер",
+            certNumber: 645857,
+            electroSafetyGroup: 2,
+            briefingDate: "02.02.2017",
+            examineData: "02.02.2017",
+            role: "член бригады", //надо вынести в указание
+            status: "активен",
+            skud: "активен",
+            geoCoord: "https://www.google.ru/maps/@57.0002421,60.4640892,315m/data=!3m1!1e3?hl=en",
+
+            orgId: 2,
+            dirId: 3
+
+        },
+        {
+            name: "Иванов Иван",
+            title: "инженер",
+            certNumber: 534,
+            electroSafetyGroup: 2,
+            briefingDate: "02.02.2017",
+            examineData: "02.02.2017",
+            role: "производитель работ", //надо вынести в указание
+            status: "активен",
+            skud: "активен",
+            geoCoord: "https://www.google.ru/maps/@57.0002421,60.4640892,315m/data=!3m1!1e3?hl=en",
+
+            orgId: 2,
+            dirId: 3
+
         }
     ],
     organizations: [
         {
             id: 1,
-            name: "google",
+            name: "Дитсманн",
             contractStatus: "активен"
 
         },
         {
             id: 2,
-            name: "gooapple",
+            name: "ПТМ Энерго",
+            contractStatus: "активен"
+        },
+        {
+            id: 3,
+            name: "Энергостройкомплект",
             contractStatus: "активен"
         }
     ],
@@ -72,6 +141,12 @@
             name: "Указания ПТМ Энерго ТМО",
             contractNumber: "134",
             path:"docs/Указания ПТМ Энерго ТМО (Куваев) 6425.pdf"
+        },
+        {
+            id: 3,
+            name: "Указания Энергостройкомплект Огневые",
+            contractNumber: "9789",
+            path: "docs/Указания Энергостройкомплект-К ОПФ+огневые (Иванов) 0186.pdf"
         }
     ]
 }

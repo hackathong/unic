@@ -1,19 +1,10 @@
 ﻿body {
     font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
-    background-attachment:fixed;
-    background-image: url('docs/enel.png');
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
-    background-size:200px;
-}
-
-.unicback {
     background-attachment: fixed;
-    background-image: url('docs/unic.png');
+    background-image: url('docs/enel.png'), url('docs/unic.png');
     background-repeat: no-repeat;
-    background-position-x: left;
-    background-position-y: top;
+    background-position-x: right, left;
+    background-position-y: bottom, top;
     background-size: 200px;
 }
 
