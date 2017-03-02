@@ -1,6 +1,21 @@
 ﻿g_data = {
     employees: [
         {
+            name: "Эмануэле Вольпе",
+            title: "инженер",
+            certNumber: 1,
+            electroSafetyGroup: 4,
+            briefingDate: "01.01.2016",
+            examineData: "01.01.2016",
+            role: "член жюри", //надо вынести в указание
+            status: "активен",
+            skud: "активен",
+            geoCoord: '<iframe src="https://www.google.com/maps/d/embed?mid=1T0_OyvOGQz4t64iGL2qLHC2KkuY" width="640" height="480"></iframe>',
+
+            orgId: 1,
+            dirId: 1
+        },
+        {
             name: "саратокин алексей",
             title: "инженер",
             certNumber: 3,
@@ -134,13 +149,13 @@
             id: 1,
             name: "Указания Дитсманн ТМО ОПФ газоопасные",
             contractNumber: "23424",
-            path:"docs/Указания Дитсманн ТМО ОПФ газоопасные (Пащенко) 6060.pdf"
+            path: "docs/Указания Дитсманн ТМО ОПФ газоопасные (Пащенко) 6060.pdf"
         },
         {
             id: 2,
             name: "Указания ПТМ Энерго ТМО",
             contractNumber: "134",
-            path:"docs/Указания ПТМ Энерго ТМО (Куваев) 6425.pdf"
+            path: "docs/Указания ПТМ Энерго ТМО (Куваев) 6425.pdf"
         },
         {
             id: 3,
