@@ -96,7 +96,7 @@
 @media only screen and (max-aspect-ratio: 12/10) {
     body {
         font-size: 25pt;
-        
+        background-image:none;
     }
 
     #searchInput {
@@ -108,16 +108,4 @@
         display: table;
     }
 
-
-    html, body {
-        height: 100%;
-    }
-
-    html {
-        overflow-y: hidden;
-    }
-
-    body {
-        overflow-y: scroll;
-    }
  }
