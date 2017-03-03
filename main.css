@@ -93,6 +93,12 @@
     cursor: pointer;
 }
 
+.hint {
+    font-size:10pt;
+    color:gray;
+
+}
+
 @media only screen and (max-aspect-ratio: 12/10) {
     body {
         font-size: 25pt;

@@ -16,7 +16,7 @@
             dirId: 1
         },
         {
-            name: "саратокин алексей",
+            name: "Саратокин Алексей",
             title: "инженер",
             certNumber: 3,
             electroSafetyGroup: 4,
@@ -31,7 +31,7 @@
             dirId: 1
         },
         {
-            name: "мишин дмитрий",
+            name: "Мишин Дмитрий",
             title: "инженер",
             certNumber: 1233,
             electroSafetyGroup: 4,
@@ -46,7 +46,7 @@
             dirId: 1
         },
         {
-            name: "сотников сергей",
+            name: "Сотников Сергей",
             title: "инженер",
             certNumber: 1233,
             electroSafetyGroup: 4,
