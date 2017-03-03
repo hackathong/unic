@@ -2,6 +2,7 @@
     this.emp;
     this.translateMap = {
         "name": "Наименование",
+        "date": "Дата оформления",
         "employeeList": "Cотрудники",
         "contractNumber": "Номер договора",
         "path": "Файл указания"
@@ -22,6 +23,7 @@ DirectiveView.prototype.VizualizeShort = function () {
     var itm = document.createElement("div");
     itm.className = "shortItem";
     this.AddField("name", itm);
+    this.AddField("date", itm);
 
     var linkObj = this.emp;
     //link
