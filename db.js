@@ -3,7 +3,7 @@
         {
             name: "Эмануэле Вольпе",
             title: "инженер",
-            certNumber: 1,
+            certNumber: 1843,
             electroSafetyGroup: 4,
             briefingDate: "01.01.2016",
             examineData: "01.01.2016",
@@ -18,7 +18,7 @@
         {
             name: "Саратокин Алексей",
             title: "инженер",
-            certNumber: 3,
+            certNumber: 323,
             electroSafetyGroup: 4,
             briefingDate: "01.01.2016",
             examineData: "01.01.2016",
