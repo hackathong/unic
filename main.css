@@ -96,7 +96,8 @@
 @media only screen and (max-aspect-ratio: 12/10) {
     body {
         font-size: 25pt;
-        background-image:none;
+        background-image: none;
+        background-size:1px;
     }
 
     #searchInput {
