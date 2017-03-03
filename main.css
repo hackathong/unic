@@ -104,10 +104,7 @@
     }
 
     .fieldName {
-        display: block;
+        display: table;
     }
-    
-    .fullItem .fieldValue {
-        font-size:larger;
-    }
+
 }
