@@ -10,7 +10,7 @@
             role: "член жюри", //надо вынести в указание
             status: "активен",
             skud: "активен",
-            geoCoord: '<iframe src="https://www.google.com/maps/d/embed?mid=1T0_OyvOGQz4t64iGL2qLHC2KkuY" width="640" height="480"></iframe>',
+            geoCoord: '<iframe src="https://www.google.com/maps/d/embed?mid=1T0_OyvOGQz4t64iGL2qLHC2KkuY" width="400" height="300"></iframe>',
 
             orgId: 1,
             dirId: 1
